@@ -6,7 +6,7 @@ This is a responsive personal portfolio website built using only **HTML** and **
 
 ## 📸 Demo
 
-📍 Live Preview: [View Website](#)
+📍 Live Preview: [View Website](https://muhammadmilon.github.io/myPortfolio/)
 
 ---
 
