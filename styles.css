@@ -615,14 +615,15 @@ section:nth-child(even) {
     border-radius: var(--border-radius);
     padding: 20px;
     text-align: center;
-    box-shadow: var(--shadow);
     transition: var(--transition);
     color: var(--text-primary);
 }
 
 .skills:hover {
-    transform: translateY(-5px);
-    box-shadow: var(--shadow-lg);
+    transform: translateY(-6px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    border-color: var(--primary);
+    z-index: 1;
 }
 
 .skills img {
