@@ -20,17 +20,22 @@
 <body>
 
     <!-- Navigation -->
-    <nav id="navbar">
+    <nav>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
         <div class="nav-content">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <i class="fas fa-bars"></i>
+            </label>
             <ul class="nav-links">
-                <li><a href="#home" data-text="Home">Home</a></li>
-                <li><a href="#about" data-text="About">About</a></li>
-                <li><a href="#projects" data-text="Projects">Projects</a></li>
-                <li><a href="#blog" data-text="Blog">Blog</a></li>
-                <li><a href="#contact" data-text="Contact">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#blog">Blogs</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
+
 
     <!-- Hero Section -->
     <section id="home" class="hero">
@@ -128,7 +133,6 @@
                     <h1 class="container-heading">Technical Skills</h1>
 
                     <div class="skills-container">
-                        <!-- HTML5 Card -->
                         <div class="skills">
                             <img src="icons/html5.png" alt="HTML5 Icon">
                             <h4 class="skill-title">HTML5</h4>
@@ -137,8 +141,6 @@
                                 web applications.
                             </p>
                         </div>
-
-                        <!-- CSS3 Card -->
                         <div class="skills">
                             <img src="icons/css3.png" alt="CSS3 Icon">
                             <h4 class="skill-title">CSS3</h4>
@@ -147,7 +149,6 @@
                                 design principles.
                             </p>
                         </div>
-
                         <div class="skills">
                             <img src="icons/js.png" alt="">
                             <h4 class="skill-title">Vanilla JavaScript</h4>
